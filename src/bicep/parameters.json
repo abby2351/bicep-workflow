@@ -7,6 +7,9 @@
       },
       "stgacct_sku": {
         "value": "Premium_LRS" 
+      },
+      "location": {
+        "value": "Canada East" 
       }
     }
   }
