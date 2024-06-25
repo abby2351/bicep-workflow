@@ -34,7 +34,7 @@ jobs:
       - name: az bicep dir build
         working-directory: '${{github.workspace}}/src/bicep'
         run: |
-          az deployment group create w--what-if --resource-group bicepRG --template-file ./storage_acct.bicep
+          az deployment group create --what-if --resource-group bicepRG --template-file ./storage_acct.bicep
 
   deploy:
     name: 'az bicep deploy'
