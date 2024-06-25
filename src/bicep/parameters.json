@@ -2,14 +2,11 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-      "stgacct_name_prefix": {
-        "value": "test" 
-      },
-      "stgacct_sku": {
-        "value": "Premium_LRS" 
+      "storage_account_name": {
+        "value": "st12mskuexszw4"
       },
       "location": {
-        "value": "Canada East" 
+        "value": "west europe"
       }
     }
   }
