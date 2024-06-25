@@ -5,7 +5,7 @@
 
 @minLength(3)
 @maxLength(19)
-param stgacct_name_prefix string
+param stgacct_name_prefix string = 'test'
 //param stgacct_name string
 
 
